@@ -32,7 +32,7 @@ if(projectsGrid){
 
 /* --- Labs data (Lab 1 - Lab 5) --- */
 const LABS = [
-  { title:'Lab Activity 1', desc:'Web Introduction', link:'lab1.html', thumb:'lab1.jpg' },
+  { title:'Lab Activity 1', desc:'Web Introduction', link:'Laboratory Activities/lab1.html', thumb:'lab1.jpg' },
   { title:'Lab Activity 2', desc:'CSS Styling and Layout', link:'Laboratory Activities/lab2.html', thumb:'lab2.png' },
   { title:'Lab Activity 3', desc:'card hide', link:'Laboratory Activities/lab3.html', thumb:'lab3.png' },
   { title:'Lab Activity 4', desc:'card hover', link:'Laboratory Activities/lab4.html', thumb:'lab4.png' },
@@ -99,4 +99,5 @@ if(contactForm){
     setTimeout(()=> formMsg.textContent = 'Thank you — your message was sent (Formspree).', 1200);
   });
 }
+
 
